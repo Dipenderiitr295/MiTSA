@@ -197,3 +197,68 @@
 | design_density                   | Design complexity normalized by size (design_complexity per LOC or similar)                                                                            |
 | normalized_cyclomatic_complexity | Cyclomatic complexity normalized/scaled (tool-specific; often adjusts for module size or minimum complexity baseline)                                  |
 | formal_parameters                | Number of formal parameters in the function/procedure/module interface (proxy for interface complexity)                                                |
+
+
+
+## F1-Score Comparison of the Proposed MiTSA Method Against HDP Baseline Methods
+
+The table below presents the F1-score comparison of the proposed **MiTSA** approach against  state-of-the-art HDP baseline methods.
+
+| Target Project     | MiTSA | FD-HDP | JIFA | MNAFM | BMEL+AMR | MHCPDP |
+|-------------------|-------|--------|------|--------|----------|--------|
+| Equinox           | 0.56  | 0.60   | 0.62 | 0.28   | 0.54     | 0.56   |
+| Jdt               | 0.37  | 0.28   | 0.27 | 0.28   | 0.38     | 0.37   |
+| Lucene            | 0.34  | 0.15   | 0.16 | 0.19   | 0.22     | 0.28   |
+| Mylyn             | 0.25  | 0.49   | 0.47 | 0.21   | 0.20     | 0.22   |
+| Pde               | 0.30  | 0.16   | 0.15 | 0.26   | 0.25     | 0.15   |
+| Activemq-5.2.0    | 0.24  | 0.12   | 0.13 | 0.36   | 0.25     | 0.21   |
+| Derby-10.3.1.4    | 0.12  | 0.36   | 0.35 | 0.42   | 0.46     | 0.40   |
+| Groovy-1_6_2      | 0.22  | 0.11   | 0.12 | 0.55   | 0.18     | 0.13   |
+| Hbase-0.94.0      | 0.24  | 0.17   | 0.16 | 0.32   | 0.37     | 0.32   |
+| Hive-0.10.0       | 0.13  | 0.16   | 0.17 | 0.25   | 0.24     | 0.25   |
+| Jruby-1.5.0       | 0.41  | 0.26   | 0.27 | 0.32   | 0.21     | 0.28   |
+| Wicket-1.3.a-1    | 0.29  | 0.13   | 0.12 | 0.20   | 0.17     | 0.13   |
+| Ant-1.3           | 0.33  | 0.25   | 0.24 | 0.26   | 0.33     | 0.26   |
+| Ivy-2.0           | 0.28  | 0.20   | 0.21 | 0.23   | 0.25     | 0.28   |
+| Jedit-4.1         | 0.48  | 0.31   | 0.30 | 0.35   | 0.42     | 0.39   |
+| Log4j-1.0         | 0.48  | 0.28   | 0.29 | 0.24   | 0.45     | 0.36   |
+| Synapse-1.2       | 0.53  | 0.27   | 0.26 | 0.33   | 0.49     | 0.43   |
+| Tomcat            | 0.32  | 0.21   | 0.22 | 0.27   | 0.22     | 0.18   |
+| Xalan-2.4         | 0.34  | 0.28   | 0.27 | 0.37   | 0.30     | 0.26   |
+| Ar3               | 0.33  | 0.23   | 0.24 | 0.45   | 0.28     | 0.23   |
+| Ar4               | 0.39  | 0.34   | 0.34 | 0.45   | 0.38     | 0.34   |
+| Ar5               | 0.59  | 0.38   | 0.39 | 0.23   | 0.52     | 0.57   |
+| Ar6               | 0.28  | 0.25   | 0.24 | 0.31   | 0.24     | 0.17   |
+| **Average**       | **0.34**  | 0.26   | 0.26 | 0.31   | 0.32     | 0.29   |
+
+
+## F1-Score Comparison of the Proposed MiTSA Method Against State-of-the-Art CPDP Baseline Methods
+
+The table below presents the F1-score comparison of the proposed **MiTSA** model against CPDP Methods.
+
+| Target Project     | MiTSA | FEDL | MASTER | SSE  | 3SW-MSTL | ARRAY |
+|-------------------|-------|------|--------|------|----------|--------|
+| Equinox           | 0.55  | 0.69 | 0.72   | 0.70 | 0.42     | 0.70   |
+| Jdt               | 0.44  | 0.50 | 0.46   | 0.36 | 0.21     | 0.47   |
+| Lucene            | 0.38  | 0.33 | 0.34   | 0.26 | 0.38     | 0.30   |
+| Mylyn             | 0.44  | 0.41 | 0.32   | 0.35 | 0.19     | 0.30   |
+| Pde               | 0.31  | 0.38 | 0.30   | 0.32 | 0.27     | 0.35   |
+| Activemq-5.2.0    | 0.56  | 0.44 | 0.30   | 0.49 | 0.38     | 0.36   |
+| Derby-10.3.1.4    | 0.58  | 0.59 | 0.55   | 0.59 | 0.31     | 0.59   |
+| Groovy-1_6_2      | 0.39  | 0.26 | 0.25   | 0.34 | 0.18     | 0.27   |
+| Hbase-0.94.0      | 0.48  | 0.55 | 0.42   | 0.38 | 0.39     | 0.48   |
+| Hive-0.10.0       | 0.47  | 0.36 | 0.44   | 0.43 | 0.44     | 0.40   |
+| Jruby-1.5.0       | 0.35  | 0.33 | 0.23   | 0.27 | 0.45     | 0.34   |
+| Wicket-1.3.a-1    | 0.27  | 0.27 | 0.12   | 0.20 | 0.23     | 0.25   |
+| Ant-1.3           | 0.38  | 0.49 | 0.40   | 0.34 | 0.41     | 0.45   |
+| Ivy-2.0           | 0.40  | 0.33 | 0.38   | 0.24 | 0.42     | 0.36   |
+| Jedit-4.1         | 0.53  | 0.54 | 0.56   | 0.44 | 0.40     | 0.56   |
+| Log4j-1.0         | 0.58  | 0.52 | 0.54   | 0.42 | 0.54     | 0.60   |
+| Synapse-1.2       | 0.54  | 0.56 | 0.56   | 0.51 | 0.52     | 0.55   |
+| Tomcat            | 0.35  | 0.27 | 0.41   | 0.31 | 0.34     | 0.31   |
+| Xalan-2.4         | 0.40  | 0.37 | 0.43   | 0.32 | 0.33     | 0.42   |
+| Ar3               | 0.39  | 0.23 | 0.41   | 0.32 | 0.50     | 0.39   |
+| Ar4               | 0.53  | 0.31 | 0.51   | 0.37 | 0.38     | 0.52   |
+| Ar5               | 0.66  | 0.50 | 0.68   | 0.61 | 0.75     | 0.61   |
+| Ar6               | 0.34  | 0.26 | 0.28   | 0.23 | 0.31     | 0.30   |
+| **Average**       | **0.45** | 0.41 | 0.42   | 0.38 | 0.38     | 0.43   |
