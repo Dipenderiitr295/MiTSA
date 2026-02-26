@@ -1,9 +1,9 @@
 # MiTSA
 # Details of Datsets
-1. M. D’Ambros, M. Lanza, and R. Robbes, “Evaluating defect prediction approaches: a benchmark and an extensive comparison,” Empirical Software Engineering, vol. 17, pp. 531–577, 2012.
-2. S. Yatish, J. Jiarpakdee, P. Thongtanunam, and C. Tantithamthavorn, “Mining software defects: Should we consider affected releases?” in 2019 IEEE/ACM 41st international conference on software engineering (ICSE). IEEE, 2019, pp. 654–665.
-3. T. Menzies, R. Krishna, and D. Pryor, “The promise repository of empirical software engineering data (2015),” URL http://promisedata.googlecode. com, 2015.
-4. B. Turhan, T. Menzies, A. B. Bener, and J. Di Stefano, “On the relative value of cross-company and within-company data for defect prediction,” Empirical Software Engineering, vol. 14, no. 5, pp. 540–578, 2009.
+1. **AEEEM:** M. D’Ambros, M. Lanza, and R. Robbes, “Evaluating defect prediction approaches: a benchmark and an extensive comparison,” Empirical Software Engineering, vol. 17, pp. 531–577, 2012.
+2. **JIRA:** S. Yatish, J. Jiarpakdee, P. Thongtanunam, and C. Tantithamthavorn, “Mining software defects: Should we consider affected releases?” in 2019 IEEE/ACM 41st international conference on software engineering (ICSE). IEEE, 2019, pp. 654–665.
+3. **PROMISE:** T. Menzies, R. Krishna, and D. Pryor, “The promise repository of empirical software engineering data (2015),” URL http://promisedata.googlecode. com, 2015.
+4. **SOFTLAB:** B. Turhan, T. Menzies, A. B. Bener, and J. Di Stefano, “On the relative value of cross-company and within-company data for defect prediction,” Empirical Software Engineering, vol. 14, no. 5, pp. 540–578, 2009.
 
 # Metrics Details of AEEEM Dataset
 | **Abbreviation**                   | **Description**                                                                    |
@@ -165,7 +165,7 @@
 | AVG_CC           | Average (Arithmetic Mean) CC of Methods in the Class |
 
 
-# Metrics Details of PROMISE Dataset
+# Metrics Details of SOFTLAB Dataset
 | **Abbreviation**                     | **Description**                                                                                                                                            |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | total_loc                        | Total number of physical lines of code (including blank and comment lines)                                                                             |
