@@ -263,7 +263,9 @@ The table below presents the F1-score comparison of the proposed **MiTSA** model
 | Ar6               | 0.34  | 0.26 | 0.28   | 0.23 | 0.31     | 0.30   |
 | **Average**       | **0.45** | 0.41 | 0.42   | 0.38 | 0.38     | 0.43   |
 
-** Per target Results for MiTSA based on AUC, MCC, and F1 for different classifiers under HDP**
+
+
+**Per target Results for MiTSA based on AUC, MCC, and F1 for different classifiers under HDP**
 
 | Target | DL-AUC | DL-F1 | DL-MCC | KNN-AUC | KNN-F1 | KNN-MCC | LR-AUC | LR-F1 | LR-MCC | NB-AUC | NB-F1 | NB-MCC | RF-AUC | RF-F1 | RF-MCC | SVM-AUC | SVM-F1 | SVM-MCC |
 |--------|--------|-------|--------|---------|--------|---------|--------|-------|--------|--------|-------|--------|--------|-------|--------|---------|--------|---------|
